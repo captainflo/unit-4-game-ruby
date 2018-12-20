@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+         <div class="card">
+             <div class="card-body">
+                <h1 class="text-center">Cristale Game Start Wars</h1>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <div class="number">
+                            <p>Your Objectif:  <span class="ramdom-number"></span></p>   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="score">
+                           <p>Win:(s) <span class="win">0</span></p> 
+                           <p>lose(s): <span class="lose">0</span></p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="ruby">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="box-character vader text-center"><h4>Darth Vader</h4><img src="./assets/images/darth-vader.jpg" alt=""></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character kylo text-center"><h4>Kylo Ren</h4><img src="./assets/images/kylo.jpg" alt=""></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character luke text-center"><h4>Luke Skywalker</h4><img src="./assets/images/luke.jpeg" alt=""></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character chewbacca text-center"><h4>Chewbacca</h4><img src="./assets/images/chewbacca.jpeg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result">
+                    <p>Your total score is : <span class="total">0</span></p>
+                </div>
+             </div>
+         </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
